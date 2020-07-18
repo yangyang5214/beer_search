@@ -2,7 +2,7 @@
 from spider_base import SpiderBase
 
 
-class Win4000Spider(SpiderBase):
+class SpiderWin4000(SpiderBase):
     name = 'win4000'
     allowed_domains = ['http://www.win4000.com']
     start_urls = ['http://www.win4000.com/meinvtag4_1.html']
